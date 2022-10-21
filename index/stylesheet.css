@@ -1,0 +1,207 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    height: 10%;
+    width: 100%;
+    background:rgb(166, 166, 240) ;
+    color: wheat;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.8;
+}
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+.navbar .container  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar ul li {
+    margin: 20px;
+}
+.logo {
+    font-size: 40px;
+    color: whitesmoke;
+    padding-left: 20px;
+}
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: white;
+    text-decoration: underline 3px;
+}
+header {
+    padding-top: 120px;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-image: url('/gym\ 1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    line-height: 1.8;
+}
+.firstsection{
+    height: 50%;
+    width: 100%;
+    background-color: cornsilk;
+    color: dimgray;
+    text-align: center;
+    color: black;
+    padding-left: 180px;
+    padding-right: 180px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+img {
+    width: 300px;
+    height: 150px;
+}
+.secondsection {
+    background-color: rgb(206, 197, 197);
+    line-height: 1.5;
+    height: 100%;
+    width: 100%;
+    padding: 100px;
+    text-align: center;
+    display: flex;
+}
+img {
+    width: 300px;
+    height: 150px;
+}
+
+.secondsection button {
+    height: 30px;
+    width: 90px;
+    border-radius: 5px;
+    background-color: cornsilk;
+    font-weight: bold;
+}
+.secondsection button:hover {
+    color: white;
+    background: black;
+}
+#secondsectiondivtext {
+    padding-left: 70px;
+}
+.thirdsection {
+    height: 60%;
+    width: 100%;
+    background-color: cornsilk;
+    color: dimgray;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.thirdsection button {
+    background-color: rgb(206, 197, 197);
+    height: 30px;
+    width: 110px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.thirdsection button:hover {
+    background: black;
+    color: white;
+}
+
+
+.footer-page {
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 40%;
+    width: 100%;
+    background: rgb(3, 3, 49);
+    color: white;
+    line-height: 1.5;
+}
+.footer-page .footer {
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-between;
+}
+
+.footer-page .footer ul {
+    list-style: none;
+}
+
+.footer-page .footer ul li i {
+    height: 30px;
+    width: 30px;
+}
+
+@media(max-width: 768px) { 
+    .navbar .logo {
+        display: none;
+    }
+    .navbar .nav {
+        font-size: 1.5rem;
+    }
+    header {
+        display: block;
+        text-align: center;
+        padding: 10px;
+        height: 50%;
+        font-size: 1em;
+    }
+    .thirdsection {
+        display: block;
+        text-align: center;
+        padding: 10px 20px;
+        height: 30%;
+        font-weight: bold;
+        color: black;
+        line-height: 1.2;
+    }
+    .firstsection {
+        height: 30%;
+        display: block;
+        padding: 10px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .secondsection {
+        display: block;
+        text-align: center;
+        height: 70%;
+        padding: 20px 10px;
+        font-size: 17px;
+        line-height: 1.2;
+    }
+    .secondsection img {
+        display: none;
+    }
+    .footer-page {
+        padding: 0;
+        margin: 0;
+        display: block;
+        float: left;
+        font-weight: bold;
+
+       /* flex-direction: column;
+        justify-items: center;*/
+
+    }
+}
+@media screen and (min-width: 768x and max-width: 992px) {
+    
+}
+@media screen and ( min-width: 992px and max-width: 1200px) {
+    
+}
+@media screen and ( min-width: 1200px) {
+    
+}
